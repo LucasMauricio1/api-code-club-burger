@@ -23,9 +23,9 @@ class CategoryController {
       return response.status(401).json({ error: 'Category aleredy exist' })
     }
 
-    const category = await Category.create({ name })
+    const { id } = await Category.create({ name })
 
-    return response.json(category)
+    return response.json({ name, id })
   }
 
   async index(request, response) {
