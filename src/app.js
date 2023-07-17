@@ -1,9 +1,9 @@
-import { resolve } from 'path'
-
 import './database'
 const express = require('express')
 const routes = require('./routes')
 const cors = require('cors')
+const path = require('path')
+const resolve = path.resolve
 
 class App {
   constructor() {
