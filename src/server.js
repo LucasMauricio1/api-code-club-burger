@@ -1,3 +1,5 @@
 import app from './app'
 
-app.listen(3002)
+const port = process.env.PORT || 3002
+
+app.listen(port, '0.0.0.0')
