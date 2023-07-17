@@ -1,9 +1,9 @@
-import express from 'express'
 import routes from './routes'
 import { resolve } from 'path'
 import cors from 'cors'
 
 import './database'
+const express = require('express')
 
 class App {
   constructor() {
