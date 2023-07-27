@@ -1,4 +1,4 @@
-<h1 align="center">API Code Burger 🍔</h1>
+<h1 align="center">API Code Burguer 🍔</h1>
 
 ![foto do Teste](./src/assets/print-project.png)
 
